@@ -1,0 +1,92 @@
+﻿{
+    "accentTwo":  "#2563eb",
+    "stack":  [
+                  "Python",
+                  "Covalent API",
+                  "Compound Protocol",
+                  "Feature Engineering",
+                  "Risk Scoring"
+              ],
+    "docs":  [
+                 {
+                     "label":  "Repository",
+                     "url":  "https://github.com/cloudy-fix/wallet-risk-scoring",
+                     "note":  "Source, commits, issues, and project files"
+                 },
+                 {
+                     "label":  "Architecture",
+                     "url":  "https://github.com/cloudy-fix/wallet-risk-scoring/blob/main/docs/ARCHITECTURE.md",
+                     "note":  "System design and responsibilities"
+                 },
+                 {
+                     "label":  "Operations",
+                     "url":  "https://github.com/cloudy-fix/wallet-risk-scoring/blob/main/docs/OPERATIONS.md",
+                     "note":  "Runbook and deployment notes"
+                 },
+                 {
+                     "label":  "Workflow Diagram",
+                     "url":  "https://github.com/cloudy-fix/wallet-risk-scoring/blob/main/docs/diagrams/workflow.mmd",
+                     "note":  "End-to-end process map"
+                 },
+                 {
+                     "label":  "Architecture Diagram",
+                     "url":  "https://github.com/cloudy-fix/wallet-risk-scoring/blob/main/docs/diagrams/architecture.mmd",
+                     "note":  "Component-level diagram"
+                 }
+             ],
+    "demoType":  "scoring",
+    "highlights":  [
+                       "Scores wallets from on-chain behavior",
+                       "Explains protocol interaction risk",
+                       "Supports Web3 data interviews"
+                   ],
+    "title":  "Wallet Risk Scoring",
+    "category":  "Blockchain Risk Analytics",
+    "components":  [
+                       "Wallet list input",
+                       "Covalent transaction fetch",
+                       "Compound feature extraction",
+                       "Scoring model",
+                       "Risk output"
+                   ],
+    "repo":  "wallet-risk-scoring",
+    "runtime":  "GitHub Pages runs the scoring console. The repo contains the Python workflow for fetching transaction data, engineering features, and scoring wallets.",
+    "sample":  {
+                   "wallet":  "0x8ba1f109551bD432803012645Ac136ddd64DBA72",
+                   "features":  [
+                                    "Borrow/repay history",
+                                    "Compound interactions",
+                                    "Liquidation indicators",
+                                    "Transaction age",
+                                    "Utilization pattern"
+                                ],
+                   "model":  "Compound risk model",
+                   "scoreLabel":  "Wallet Risk Score",
+                   "maxScore":  1000
+               },
+    "accent":  "#b45309",
+    "visibility":  "Public",
+    "mission":  "A live wallet risk scoring surface that explains how Compound and Covalent-style activity can become a 0 to 1000 risk signal.",
+    "metrics":  [
+                    {
+                        "label":  "Score Range",
+                        "detail":  "Wallet risk signal",
+                        "value":  "0 to 1000"
+                    },
+                    {
+                        "label":  "Source",
+                        "detail":  "Protocol interactions",
+                        "value":  "Compound data"
+                    },
+                    {
+                        "label":  "Features",
+                        "detail":  "Repayment, use, age",
+                        "value":  "Behavioral"
+                    }
+                ],
+    "links":  {
+                  "pages":  "https://cloudy-fix.github.io/wallet-risk-scoring/",
+                  "portfolio":  "https://cloudy-fix.github.io/portfolio/projects.html",
+                  "repo":  "https://github.com/cloudy-fix/wallet-risk-scoring"
+              }
+}
