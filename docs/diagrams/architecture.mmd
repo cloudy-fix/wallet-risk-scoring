@@ -1,0 +1,6 @@
+﻿flowchart LR
+    User["Wallet list and Covalent transaction data"] --> App["Feature extraction and risk scoring script"]
+    App --> Data["Wallet transactions, Compound labels, gas/activity metrics"]
+    App --> Output["wallet_scores.csv and risk analysis"]
+    Data --> Output
+
